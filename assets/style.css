@@ -57,3 +57,4 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:3px solid #ffb7
 .tagline{font-weight:700;color:#fff;font-size:17px;margin:6px 0}
 .snd{position:absolute;z-index:3;bottom:18px;inset-inline-end:18px;display:flex;gap:6px;align-items:center;background:rgba(4,16,36,.75);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:99px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer}.snd[hidden]{display:none}.snd:focus-visible{outline:3px solid #ffb703}
 .hero.vid>.wrap,.hero.vid .hov{opacity:0!important;pointer-events:none}.hero>.wrap,.hero .hov{transition:opacity 1.2s ease}
+.hero.done{background:#0b3a6e url(../media/hero-family.jpg) center/cover no-repeat}
