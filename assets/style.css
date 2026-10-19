@@ -50,3 +50,7 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:3px solid #ffb7
 .hero h1,.hero .lead{text-shadow:0 2px 12px rgba(0,0,0,.45)}.hcard{background:rgba(6,26,54,.62)}
 @media(max-width:720px){.hero{min-height:0}.hov,[dir=rtl] .hov{background:linear-gradient(180deg,rgba(4,16,36,.75),rgba(4,16,36,.9))}}
 .av>*,.chips,.avf{min-width:0}.avf input{min-width:0;flex:1 1 180px}.avf .btn{white-space:normal;flex:1 1 auto}
+/* hero video: plays once; text hides over the white logo end, then fades back to poster */
+.hv{transition:opacity 1s}.hero.done .hv{opacity:0}
+.hero>.wrap,.hov{transition:opacity .6s}.hero.vid.end>.wrap,.hero.vid.end .hov{opacity:0;pointer-events:none}
+.hero.vid:not(.end) .hov{opacity:.85}
