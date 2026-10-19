@@ -56,3 +56,4 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:3px solid #ffb7
 .hero.vid:not(.end) .hov{opacity:.85}
 .tagline{font-weight:700;color:#fff;font-size:17px;margin:6px 0}
 .snd{position:absolute;z-index:3;bottom:18px;inset-inline-end:18px;display:flex;gap:6px;align-items:center;background:rgba(4,16,36,.75);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:99px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer}.snd[hidden]{display:none}.snd:focus-visible{outline:3px solid #ffb703}
+@media(max-width:720px){.hero{display:block;padding-top:0;background:#061a36}.hero .hv{position:relative;inset:auto;height:auto;aspect-ratio:16/9;display:block}.hero.done .hv{opacity:1}.hero .hov{display:none}.hero>.wrap{padding-top:24px}.hero.vid.end>.wrap{opacity:1!important;pointer-events:auto}.hero .snd{top:12px;bottom:auto}}
