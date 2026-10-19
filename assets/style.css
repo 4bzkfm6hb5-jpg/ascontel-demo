@@ -43,3 +43,10 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:3px solid #ffb7
 .expand{margin-top:20px;font-weight:700;color:var(--wa);font-size:18px}.avf>label{display:block;font-weight:700;margin-bottom:8px}
 @media(max-width:720px){.cities{grid-template-columns:repeat(2,1fr)}}
 .pkg .btn{font-size:15px;padding:12px 14px}html,body{overflow-x:clip}
+.hero{position:relative;overflow:hidden;isolation:isolate;background:#061a36 url(../media/hero-poster.jpg) center/cover no-repeat;min-height:620px;display:flex;align-items:center}
+.hero>.wrap{position:relative;z-index:2;width:100%}.hv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hov{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(4,16,36,.92) 0,rgba(6,26,54,.78) 45%,rgba(6,26,54,.45) 100%),linear-gradient(0deg,rgba(4,16,36,.55),transparent 40%)}
+[dir=rtl] .hov{background:linear-gradient(270deg,rgba(4,16,36,.92) 0,rgba(6,26,54,.78) 45%,rgba(6,26,54,.45) 100%),linear-gradient(0deg,rgba(4,16,36,.55),transparent 40%)}
+.hero h1,.hero .lead{text-shadow:0 2px 12px rgba(0,0,0,.45)}.hcard{background:rgba(6,26,54,.62)}
+@media(max-width:720px){.hero{min-height:0}.hov,[dir=rtl] .hov{background:linear-gradient(180deg,rgba(4,16,36,.75),rgba(4,16,36,.9))}}
+.av>*,.chips,.avf{min-width:0}.avf input{min-width:0;flex:1 1 180px}.avf .btn{white-space:normal;flex:1 1 auto}
